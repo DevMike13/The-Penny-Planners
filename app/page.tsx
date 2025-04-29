@@ -2,6 +2,8 @@ import Image from "next/image";
 
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
+import Intro from "./components/intro/Intro";
+import Others from "./components/others/Others";
 import OfferCard from "./components/card/OfferCard";
 import Footer from "./components/footer/Footer";
 import products, { Product } from "@/static/datas";
@@ -16,12 +18,12 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="w-full h-auto">
+    <div className="w-full h-auto overflow-x-hidden">
       {/* <Header /> */}
-      <Hero />
+      {/* <Hero /> */}
+      <Intro />
       <div className="w-[90%] md:w-full md:max-w-[780px] m-auto mt-10">
         <p className="text-lg">Looking to find the best natural supplement deals without breaking the bank? We have done the hard work for you by hunting down these absolute best online deals right now! Our team of shopping experts has uncovered these incredible products at their <span className="font-bold underline">lowest prices ever</span> – we’re talking huge discounts up to 75% off retail prices! Discover the natural solutions that have been helping thousands of Americans feel their best every day now available at a special promotional pricing for a limited time today!</p>
-        <p className="italic mt-10">Written by Annabelle Harrison | Online Deal Expert April 25, 2025 </p>
       </div>
       <div className="w-[90%] md:w-full md:max-w-[780px] m-auto mt-10">
         {products.map((offer) => (
@@ -31,6 +33,7 @@ export default function Home() {
           </React.Fragment>
         ))}
       </div>
+      <Others />
       <div className="w-[90%] md:w-full md:max-w-[780px] m-auto my-10">
         <Accordion type="single" collapsible className="w-full max-w-[780px]">
           <AccordionItem value="item-1">
@@ -60,36 +63,6 @@ export default function Home() {
         </Accordion>
       </div>
       <Footer />
-      {/* <h1>Top 10 Outdoor Survival Essentials Every Smart Prepper Should Own</h1>
-      {products.map((product: Product) => (
-        <div key={product.id}>
-          <h2>{product.name}</h2>
-          <p dangerouslySetInnerHTML={{ __html: product.description }} />
-        </div>
-      ))}
-      <Accordion type="single" collapsible className="w-full max-w-[520px]">
-        <AccordionItem value="item-1">
-          <AccordionTrigger>Is it accessible?</AccordionTrigger>
-          <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
-          </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="item-2">
-          <AccordionTrigger>Is it styled?</AccordionTrigger>
-          <AccordionContent>
-            Yes. It comes with default styles that matches the other
-            components&apos; aesthetic.
-          </AccordionContent>
-        </AccordionItem>
-        <AccordionItem value="item-3">
-          <AccordionTrigger>Is it animated?</AccordionTrigger>
-          <AccordionContent>
-            Yes. It&apos;s animated by default, but you can disable it if you
-            prefer.
-          </AccordionContent>
-        </AccordionItem>
-      </Accordion> */}
-      {/* <img src="./images/article-header.png" alt="" width={100} height={200} /> */}
     </div>
   );
 }
