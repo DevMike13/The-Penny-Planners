@@ -34,7 +34,7 @@ export default function Home() {
         ))}
       </div>
       <Others />
-      <div className="w-[90%] md:w-full md:max-w-[780px] m-auto my-10">
+      {/* <div className="w-[90%] md:w-full md:max-w-[780px] m-auto my-10">
         <Accordion type="single" collapsible className="w-full max-w-[780px]">
           <AccordionItem value="item-1">
             <AccordionTrigger className="hover:cursor-pointer no-underline hover:no-underline data-[state=open]:text-[#93c446] text-lg md:text-xl font-bold flex items-center">What is a Personal Loan and Should You Get One?</AccordionTrigger>
@@ -61,7 +61,7 @@ export default function Home() {
             </AccordionContent>
           </AccordionItem>
         </Accordion>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

@@ -7,7 +7,7 @@ const Others = () => {
         <hr />
         <h6 className='py-5 font-bold'>You May Also Like</h6>
         <div className='mb-10 flex justify-center items-center md:block'>
-            <OtherCard />
+            <OtherCard url='https://www.rzmef8trk.com/5TZ63ZQ/B4JX9FL/'/>
         </div>
         <hr />
     </div>
