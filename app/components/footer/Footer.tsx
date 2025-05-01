@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className='w-full bg-[#282828] py-8 px-6 md:px-14 flex flex-col gap-2'>
       <div className='w-full flex flex-col justify-center items-center gap-5'>
-        <h6 className='text-white font-semibold text-xl'>Copyright 2025 - The Penny Planners</h6>
+        <h6 className='text-white font-semibold text-xl text-center'>Copyright 2025 - The Penny Planners</h6>
         <div>
           <ul className='flex flex-col md:flex-row justify-between items-center gap-4 md:gap-10'>
             <li>
