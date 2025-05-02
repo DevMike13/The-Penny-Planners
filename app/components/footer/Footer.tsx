@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import {
   Accordion,
   AccordionContent,
@@ -14,18 +15,24 @@ const Footer = () => {
         <div>
           <ul className='flex flex-col md:flex-row justify-between items-center gap-4 md:gap-10'>
             <li>
-              <a href="https://www.thepennyplanners.com/terms" className='text-blue-300 underline'>Terms & Conditions</a>
+              <Link href="/terms-&-conditions" className='text-blue-300 underline'>
+                Terms & Conditions
+              </Link>
             </li>
             <li>
-              <a href="https://www.thepennyplanners.com/privacy" className='text-blue-300 underline'>Privacy Policy</a>
+              <Link href="/privacy-policy" className='text-blue-300 underline'>
+                Privacy Policy
+              </Link>
             </li>
             <li>
-              <a href="#" className='text-blue-300 underline'>About Us</a>
+              <Link href="/about" className='text-blue-300 underline'>
+                About Us
+              </Link>
             </li>
           </ul>
         </div>
         <p className='text-white text-md'>THIS IS AN ADVERTISEMENT AND NOT AN ACTUAL NEWS ARTICLE, BLOG, OR CONSUMER PROTECTION UPDATE.</p>
-        <p className='text-white text-md text-center'>ThePennyPlanners.com is a website where we help usets find the best deals online. All of the offers and promotions shown on the site are custom curated for selected users only. To contact us, please email us at (EMAIL)</p>
+        <p className='text-white text-md text-center'>ThePennyPlanners.com is a website where we help usets find the best deals online. All of the offers and promotions shown on the site are custom curated for selected users only. To contact us, please email us at <a href="mailto:support@revenueclickmedia.com">support@revenueclickmedia.com</a></p>
       </div>
       <Accordion type="single" collapsible className="w-full max-w-full">
         <AccordionItem value="item-1">

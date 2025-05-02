@@ -19,30 +19,30 @@ const products: Product[] = [
     {
       id: 1,
       title: 'Emma Gut Health Supplements',
-      image: '/images/emma-gut-health-5139.png',
+      image: '/images/1.png',
       description: "<b>Limited Time Promo: SAVE $360 for a 6-Month Supply!</b> Emma is a gut health supplement designed to support healthy bowel movements, reduce occasional gas and bloating, and address occasional food sensitivities.<br> <a href='#' target='_blank'><i><b><u>= Available online only, Emma Gut Heatlh Supplements are only $59/bottle vs. $99 retail - while supplies last.</b></i></u></a>",
-      url: 'https://www.rzmef8trk.com/5TZ63ZQ/B3TGX54/',
+      url: 'https://www.rzmef8trk.com/5SHH4C2/B3TGX54/',
     },
     {
       id: 2,
       title: "Amanita Muscaria Mushroom Gummies",
-      image: '/images/magic-mushroom-4851-resized.png',
+      image: '/images/2.png',
       description: "<b>Limited Time Promo: $10 OFF Magic Mushroom Gummies!</b> Introducing the first-of-their-kind Amanita Muscaria Mushroom Gummies, the only legal psychedelic option on the market. Each pack contains a potent 1500mg of pure amanita muscaria extract.<br> <a href='#' target='_blank'><i><b><u>= Available online only, subscribe and save ADDITIONAL 15% OFF!</b></i></u></a>",
-      url: 'https://www.rzmef8trk.com/5TZ63ZQ/9KKJH68/',
+      url: 'https://www.rzmef8trk.com/5SHH4C2/9KKJH68/',
     },
     {
       id: 3,
       title: "Nuubu - Detox Foot Patches",
-      image: '/images/nuubu-detox-patch.png',
+      image: '/images/3.png',
       description: "<b>Limited Time Promo: 60% Off Detox Patches!</b> Nuubu Detox Foot Pads are natural patches worn on the feet overnight, claiming to support body detox, reduce stress, and improve sleep using herbal ingredients like bamboo vinegar and ginger.<br> <a href='#' target='_blank'><i><b><u>= Available online only, Nuubu Detox Foot Pads are only $9.99 vs. $24.99 retail - while supplies last.</b></i></u></a>",
-      url: 'https://www.rzmef8trk.com/5TZ63ZQ/B5HB3F5/',
+      url: 'https://www.rzmef8trk.com/5SHH4C2/B5HB3F5/',
     },
     {
       id: 4,
       title: "Akusoli Shoe Insoles",
-      image: '/images/akusoli-shoe-insoles.png',
+      image: '/images/4.png',
       description: "<b>Limited Time Promo: 70% Off Sole Insoles!</b> Akusoli acupressure insoles are specially designed for people who want to move more. These insoles help to relieve tired, achy feet and stop soreness altogether.<br> <a href='#' target='_blank'><i><b><u>= Available online only, Akusoli Shoe Insoles are only $29.99 vs. $99.97 retail - while supplies last.</b></i></u></a>",
-      url: 'https://www.rzmef8trk.com/5TZ63ZQ/B5HB3F5/',
+      url: 'https://www.rzmef8trk.com/5SHH4C2/B5JNZ5Q/',
     },
 ];
 
