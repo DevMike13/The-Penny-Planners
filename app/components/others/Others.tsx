@@ -1,6 +1,8 @@
 import React from 'react'
 import OtherCard from '../card/OtherCard'
 
+import { otherOffers } from '@/static/datas';
+
 const Others = () => {
   return (
     <div className="w-[90%] md:w-full md:max-w-[780px] m-auto mt-10">
