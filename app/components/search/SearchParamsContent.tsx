@@ -36,15 +36,12 @@ const SearchParamsContent = () => {
       <div className="w-[90%] md:w-full md:max-w-[780px] m-auto mt-10">
         <hr />
         <h6 className='py-5 font-bold'>You May Also Like</h6>
-        <div className='mb-10 flex justify-center items-center md:block'>
+        <div className='mb-10 flex-col justify-center items-center md:grid md:grid-cols-3 md:gap-4'>
           {otherOffers.map((otherOffer) => {
             const fullUrl = queryString ? `${otherOffer.url}?${queryString}` : otherOffer.url;
 
             return (
-              <React.Fragment key={otherOffer.id}>
-                <hr />
-                <OtherCard {...otherOffer} url={fullUrl} />
-              </React.Fragment>
+              <OtherCard {...otherOffer} url={fullUrl} key={otherOffer.id} />
             );
           })}
         </div>

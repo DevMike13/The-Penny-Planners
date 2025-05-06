@@ -52,6 +52,24 @@ const otherOffers: OtherOffer[] = [
     title: 'Unlock Rewards: Take a FREE Quick Survey and Claim a Brand New Car Emergency Kit!',
     image: '/images/Penny-Others.png',
     url: 'https://www.rzmef8trk.com/5TZ63ZQ/B4JX9FL/',
+  },
+  {
+    id: 102,
+    title: 'Are You 26yo or Older? Speak with a Licensed Agent Today to See If You Qualify for a $0/month plan!',
+    image: '/images/seek-healt-aca-5098.png',
+    url: 'https://www.rzmef8trk.com/28KL6/B1SJNZ7/',
+  },
+  {
+    id: 103,
+    title: 'Winners Picked Daily: This is YOUR Chance to WIN a $500 American Express Gift Card Today!',
+    image: '/images/everyday-winner-amex-gc-4937.png',
+    url: 'https://www.rzmef8trk.com/28KL6/9PSZGGG/',
+  },
+  {
+    id: 104,
+    title: 'Special Rewards: Claim Your FREE Entry Today to WIN a $500 Gift Card Delivered to Your Door!',
+    image: '/images/blissful-daily-5035.png',
+    url: 'https://www.rzmef8trk.com/28KL6/9WP32KZ/',
   }
 ];
   

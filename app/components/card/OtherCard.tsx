@@ -9,12 +9,11 @@ interface OtherCardProps {
 
 const OtherCard: React.FC<OtherCardProps>  = ({ id, title, image, url }) => {
   return (
-    <a href={url}>
-      <div className='w-full md:w-[400px] h-auto p-3 shadow-md rounded-md flex flex-col gap-5'>
+    <a href={url} className="h-full">
+      <div className='w-full h-full p-3 shadow-md rounded-md flex flex-col gap-5'>
           <img src={image} alt="" className='rounded-md'/>
           <p className='font-semibold text-md leading-5'>
             {title}
-              Unlock Rewards: Take a FREE Quick Survey and Claim a Brand New Car Emergency Kit!
           </p>
       </div>
     </a>
