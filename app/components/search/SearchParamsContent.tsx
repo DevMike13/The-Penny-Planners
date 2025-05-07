@@ -22,12 +22,14 @@ const SearchParamsContent = () => {
 
       <div className="w-[90%] md:w-full md:max-w-[780px] m-auto mt-10">
         {products.map((offer) => {
-          const fullUrl = queryString ? `${offer.url}?${queryString}` : offer.url;
+          const fullUrl = offer.url.includes('?')
+            ? `${offer.url}&${queryString}`
+            : `${offer.url}?${queryString}`;
 
           return (
             <React.Fragment key={offer.id}>
               <hr />
-              <OfferCard {...offer} url={fullUrl} />
+              <OfferCard {...offer} url={fullUrl} description={offer.description.replace("href='#'", `href='${fullUrl}'`)} />
             </React.Fragment>
           );
         })}
@@ -38,7 +40,9 @@ const SearchParamsContent = () => {
         <h6 className='py-5 font-bold'>You May Also Like</h6>
         <div className='mb-10 flex-col justify-center items-center md:grid md:grid-cols-3 md:gap-4'>
           {otherOffers.map((otherOffer) => {
-            const fullUrl = queryString ? `${otherOffer.url}?${queryString}` : otherOffer.url;
+            const fullUrl = otherOffer.url.includes('?')
+              ? `${otherOffer.url}&${queryString}`
+              : `${otherOffer.url}?${queryString}`;
 
             return (
               <OtherCard {...otherOffer} url={fullUrl} key={otherOffer.id} />

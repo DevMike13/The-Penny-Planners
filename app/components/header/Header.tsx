@@ -7,7 +7,7 @@ const Header = () => {
 
       </div>
       <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 p-1 rounded-lg">
-        <a href="/">
+        {/* <a href="/"> */}
           <img 
             src="images/logo.png" 
             alt="Logo" 
@@ -22,11 +22,11 @@ const Header = () => {
             height={50} 
             className="block sm:hidden rounded-lg"
           />
-        </a>
+        {/* </a> */}
       </div>
       <div className='flex items-center justify-center md:gap-5 gap-2 mt-2 md:mt-0'>
         <ul className='flex gap-10'>
-            <li><a href="#" className='text-sm uppercase mb-2 text-center font-semibold text-gray-500'>Advertisement</a></li>
+            {/* <li><a href="#" className='text-sm uppercase mb-2 text-center font-semibold text-gray-500'>Advertisement</a></li> */}
         </ul>
       </div>
     </div>

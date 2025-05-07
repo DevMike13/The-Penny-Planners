@@ -15,17 +15,17 @@ const Footer = () => {
         <div>
           <ul className='flex flex-col md:flex-row justify-between items-center gap-4 md:gap-10'>
             <li>
-              <Link href="/terms-&-conditions" className='text-blue-300 underline'>
+              <Link href="/terms-&-conditions" className='text-blue-300 underline' target="_blank">
                 Terms & Conditions
               </Link>
             </li>
             <li>
-              <Link href="/privacy-policy" className='text-blue-300 underline'>
+              <Link href="/privacy-policy" className='text-blue-300 underline' target="_blank">
                 Privacy Policy
               </Link>
             </li>
             <li>
-              <Link href="/about" className='text-blue-300 underline'>
+              <Link href="/about" className='text-blue-300 underline' target="_blank">
                 About Us
               </Link>
             </li>

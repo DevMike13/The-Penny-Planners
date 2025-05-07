@@ -9,7 +9,7 @@ interface OtherCardProps {
 
 const OtherCard: React.FC<OtherCardProps>  = ({ id, title, image, url }) => {
   return (
-    <a href={url} className="h-full">
+    <a href={url} className="h-full" target="_blank">
       <div className='w-full h-full p-3 shadow-md rounded-md flex flex-col gap-5'>
           <img src={image} alt="" className='rounded-md'/>
           <p className='font-semibold text-md leading-5'>
