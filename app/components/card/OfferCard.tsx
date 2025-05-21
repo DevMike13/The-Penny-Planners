@@ -3,12 +3,13 @@ import React from 'react'
 interface OfferCardProps {
     id: number;
     title: string;
+    offerId: string;
     image: string;
     description: string;
     url: string;
 }
 
-const OfferCard: React.FC<OfferCardProps> = ({ id, title , image, description, url}) => {
+const OfferCard: React.FC<OfferCardProps> = ({ id, title, offerId , image, description, url}) => {
     return (
         <div className="bg-white rounded-xl overflow-hidden shadow-md border p-4 w-full my-10">
             <h1 className="text-xl md:text-2xl font-bold mb-5"><span className='bg-gray-600 px-3 py-1 rounded-lg text-white text-base md:text-xl'>{id}</span> {title}</h1>
@@ -24,6 +25,7 @@ const OfferCard: React.FC<OfferCardProps> = ({ id, title , image, description, u
                 dangerouslySetInnerHTML={{ __html: description }}
             />
             <a
+                id={offerId}
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
