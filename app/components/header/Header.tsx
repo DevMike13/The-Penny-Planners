@@ -9,14 +9,14 @@ const Header = () => {
       <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 p-1 rounded-lg">
         {/* <a href="/"> */}
           <img 
-            src="images/logo.png" 
+            src="../images/logo.png" 
             alt="Logo" 
             width={220} 
             height={50} 
             className="hidden sm:block rounded-lg"
           />
           <img 
-            src="images/logo.png" 
+            src="../images/logo.png" 
             alt="Logo" 
             width={200} 
             height={50} 

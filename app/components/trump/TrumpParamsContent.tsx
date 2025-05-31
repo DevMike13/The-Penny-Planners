@@ -2,10 +2,10 @@
 import { useSearchParams } from '@/node_modules/next/navigation';
 import OfferCard from "../card/OfferCard";
 import OtherCard from "../card/OtherCard";
-import { products, otherOffers } from "@/static/datas";
+import { products, otherOffers } from "@/static/trump-data";
 import React from "react";
 
-const SearchParamsContent = () => {
+const TrumpParamsContent = () => {
     const searchParams = useSearchParams();
     const queryString = searchParams.toString();
 
@@ -13,10 +13,8 @@ const SearchParamsContent = () => {
     <>
       <div className="w-[90%] md:w-full md:max-w-[780px] m-auto mt-10">
         <p className="text-lg">
-          Looking to find the best health and beauty deals without breaking the bank?
-          We have done the hard work for you by hunting down these absolute best online deals right now!
-          Our team of shopping experts has uncovered these incredible products at their
-          <span className="font-bold underline"> lowest prices ever</span> – we’re talking huge discounts up to 75% off retail prices!
+            Looking to find the best President Trump Memorabilia deals without breaking the bank? We have done the hard work for you by hunting down these absolute best online deals right now! Our team of shopping experts has uncovered these incredible products at their
+          <span className="font-bold underline"> lowest prices ever</span> – we’re talking huge discounts up to 70% off retail prices!
         </p>
       </div>
 
@@ -55,4 +53,4 @@ const SearchParamsContent = () => {
   )
 }
 
-export default SearchParamsContent
+export default TrumpParamsContent
