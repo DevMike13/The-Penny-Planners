@@ -20,7 +20,7 @@ const SearchParamsContent = () => {
         </p>
       </div>
 
-      <div className="w-[90%] md:w-full md:max-w-[780px] m-auto mt-10">
+      <div className="w-[95%] md:w-full md:max-w-[780px] m-auto mt-10 px-0 md:px-5 lg:px-0">
         {products.map((offer) => {
           const fullUrl = offer.url.includes('?')
             ? `${offer.url}&${queryString}`
@@ -35,7 +35,7 @@ const SearchParamsContent = () => {
         })}
       </div>
 
-      <div className="w-[90%] md:w-full md:max-w-[780px] m-auto mt-10">
+      <div className="w-[95%] md:w-full md:max-w-[780px] m-auto mt-10 px-0 md:px-5 lg:px-0">
         <hr />
         <h6 className='py-5 font-bold'>You May Also Like</h6>
         <div className='mb-10 flex-col justify-center items-center md:grid md:grid-cols-3 md:gap-4'>
