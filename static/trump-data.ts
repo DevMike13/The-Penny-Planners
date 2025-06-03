@@ -102,14 +102,14 @@ const otherOffers: OtherOffer[] = [
     image: '/images/others/AAA sweeps 5153.png',
     url: 'https://www.rzmef8trk.com/5SHH4C2/B4JX9FL/',
   },
-  {
-    id: 102,
-    title: 'Are You 26yo or Older? Speak with a Licensed Agent Today to See If You Qualify for a $0/month plan!',
-    offerName: 'Seek Health ACA',
-    offerId: '5098',
-    image: '/images/others/seek health aca 5098.png',
-    url: 'https://www.rzmef8trk.com/5SHH4C2/B1SJNZ7/',
-  },
+  // {
+  //   id: 102,
+  //   title: 'Are You 26yo or Older? Speak with a Licensed Agent Today to See If You Qualify for a $0/month plan!',
+  //   offerName: 'Seek Health ACA',
+  //   offerId: '5098',
+  //   image: '/images/others/seek health aca 5098.png',
+  //   url: 'https://www.rzmef8trk.com/5SHH4C2/B1SJNZ7/',
+  // },
   {
     id: 103,
     title: 'Daily Winners: This is YOUR Chance to WIN a $500 AMEX Gift Card Today!',
@@ -147,7 +147,7 @@ const otherOffers: OtherOffer[] = [
     title: 'Earn Up to $100 Per Survey and Promotions with Offerwings Today!',
     offerName: 'Offerwings CPA',
     offerId: '4069',
-    image: '/images/others/Offerwings CPA (4069).png',
+    image: '/images/others/Offerwings CPA-new (4069).png',
     url: 'https://www.rzmef8trk.com/5SHH4C2/86RKMMG/',
   },
   {
@@ -155,7 +155,7 @@ const otherOffers: OtherOffer[] = [
     title: 'Find the Best Auto Insurance in Your Area at the Lowest Rate!',
     offerName: 'Dialautocoverage Inbound Insured 150 Sec',
     offerId: '5148',
-    image: '/images/others/Dialautocoverage (5148).png',
+    image: '/images/others/Dialautocoverage-new (5148).png',
     url: 'https://www.rzmef8trk.com/5SHH4C2/B49ZTQK/',
   },
 ];

@@ -32,7 +32,7 @@ const Footer = () => {
           </ul>
         </div>
         <p className='text-white text-md'>THIS IS AN ADVERTISEMENT AND NOT AN ACTUAL NEWS ARTICLE, BLOG, OR CONSUMER PROTECTION UPDATE.</p>
-        <p className='text-white text-md text-center'>ThePennyPlanners.com is a website where we help usets find the best deals online. All of the offers and promotions shown on the site are custom curated for selected users only. To contact us, please email us at <a href="mailto:support@revenueclickmedia.com">support@revenueclickmedia.com</a></p>
+        <p className='text-white text-md text-center'>ThePennyPlanners.com is a website where we help users find the best deals online. All of the offers and promotions shown on the site are custom curated for selected users only. To contact us, please email us at <a href="mailto:support@thepennyplanners.com">support@thepennyplanners.com</a></p>
       </div>
       <Accordion type="single" collapsible className="w-full max-w-full">
         <AccordionItem value="item-1">

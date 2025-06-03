@@ -172,7 +172,7 @@ const otherOffers: OtherOffer[] = [
     title: 'Earn Up to $100 Per Survey and Promotions with Offerwings Today!',
     offerName: 'Offerwings CPA',
     offerId: '4069',
-    image: '/images/others/Offerwings CPA (4069).png',
+    image: '/images/others/Offerwings CPA-new (4069).png',
     url: 'https://www.rzmef8trk.com/5SHH4C2/86RKMMG/',
   },
   {
@@ -180,7 +180,7 @@ const otherOffers: OtherOffer[] = [
     title: 'Find the Best Auto Insurance in Your Area at the Lowest Rate!',
     offerName: 'Dialautocoverage Inbound Insured 150 Sec',
     offerId: '5148',
-    image: '/images/others/Dialautocoverage (5148).png',
+    image: '/images/others/Dialautocoverage-new (5148).png',
     url: 'https://www.rzmef8trk.com/5SHH4C2/B49ZTQK/',
   },
 ];

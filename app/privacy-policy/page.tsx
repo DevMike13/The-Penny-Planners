@@ -127,7 +127,7 @@ const page = () => {
         <h6 className='font-bold text-lg'>Contact Us</h6>
         <p>If you have any questions about this Privacy Policy, please contact us:</p><br />
         <ul className='ml-10'>
-          <li className='list-disc'>By email:  <a href="mailto:support@revenueclickmedia.com" className='text-blue-500 underline'>support@revenueclickmedia.com</a></li>
+          <li className='list-disc'>By email:  <a href="mailto:support@thepennyplanners.com" className='text-blue-500 underline'>support@thepennyplanners.com</a></li>
           <li className='list-disc'>By mail:  <span>1440 W. Taylor St # 1025, Chicago, IL 60607, United States</span></li>
         </ul>
       </div>
