@@ -35,16 +35,16 @@ const products: Product[] = [
       description: "<b>Exclusive Limited Edition: Claim your FREE Trump Gold Victory Coin!</b> To honor President Trump and his fight for America’s future, we’re giving back to Proud Patriots like you. <br> <a href='#' target='_blank'><i><b><u>>> Available online only, no hidden charges—just a small shipping and handling fee, and comes in a protective case!</b></i></u></a>",
       url: 'https://www.rzmef8trk.com/5SL29KD/B3K5LPG/',
     },
+    // {
+    //   id: 3,
+    //   title: "Robert F. Kennedy Jr., Miracles from the Vault Book",
+    //   offerId: '5199',
+    //   image: '/images/trump/Robert F. Kennedy Jr., Miracles from the Vault Book (5199).webp',
+    //   description: "<b>Health Science Institute Lifetime Subscription:</b> Join today to receive your special collection, \"Miracles from the Vault\" PLUS your BONUS gift, \"The New Miracles: An Updated Anthology of Underground Cures.\"<br> <a href='#' target='_blank'><i><b><u>>> Available online only, join Lifetime Subscription (UNLIMITED issues) for just $179, plus 4 MORE FREE BONUS!</b></i></u></a>",
+    //   url: 'https://www.rzmef8trk.com/5SL29KD/B6SRX9J/',
+    // },
     {
       id: 3,
-      title: "Robert F. Kennedy Jr., Miracles from the Vault Book",
-      offerId: '5199',
-      image: '/images/trump/Robert F. Kennedy Jr., Miracles from the Vault Book (5199).webp',
-      description: "<b>Health Science Institute Lifetime Subscription:</b> Join today to receive your special collection, \"Miracles from the Vault\" PLUS your BONUS gift, \"The New Miracles: An Updated Anthology of Underground Cures.\"<br> <a href='#' target='_blank'><i><b><u>>> Available online only, join Lifetime Subscription (UNLIMITED issues) for just $179, plus 4 MORE FREE BONUS!</b></i></u></a>",
-      url: 'https://www.rzmef8trk.com/5SL29KD/B6SRX9J/',
-    },
-    {
-      id: 4,
       title: "Gold Trump Coin Embedded Whiskey Glass",
       offerId: '5493',
       image: '/images/trump/Gold Trump Coin Embedded Whiskey Glass (5493).webp',
@@ -52,7 +52,7 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SL29KD/BPF3MN2/',
     },
     {
-      id: 5,
+      id: 4,
       title: "Elon Musk Limited Edition Bobblehead",
       offerId: '5132',
       image: '/images/trump/Elon Musk Limited Edition Bobblehead (5132).webp',
@@ -60,7 +60,7 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SL29KD/B3HQPZT/',
     },
     {
-      id: 6,
+      id: 5,
       title: "Trumpinator Teddy Bear (Buy1, Get1)",
       offerId: '5489',
       image: '/images/trump/Trumpinator Teddy Bear (Buy1, Get1) (5489).webp',
@@ -68,7 +68,7 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SL29KD/BP7J4PL/',
     },
     {
-      id: 7,
+      id: 6,
       title: "Pope Leo XIV The First American Pope - Gold Half Dollar Coin",
       offerId: '5492',
       image: '/images/trump/Pope Leo XIV The First American Pope - Gold Half Dollar Coin (5492).webp',
@@ -76,7 +76,7 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SL29KD/BPCNQXF/',
     },
     {
-      id: 8,
+      id: 7,
       title: "Trump Hugging The Flag Bobblehead",
       offerId: '5490',
       image: '/images/trump/Trump Hugging The Flag Bobblehead (5490).webp',
@@ -84,7 +84,7 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SL29KD/BP8X1G7/',
     },
     {
-      id: 9,
+      id: 8,
       title: "President Trump 2nd Term Executive Order Pen",
       offerId: '5488',
       image: '/images/trump/President Trump 2nd Term Executive Order Pen (5488).webp',

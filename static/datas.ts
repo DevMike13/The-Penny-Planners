@@ -29,14 +29,6 @@ const products: Product[] = [
     },
     {
       id: 2,
-      title: "Amanita Muscaria Mushroom Gummies",
-      offerId: '4851',
-      image: '/images/Magic Mushrooms (4851).webp',
-      description: "<b>Limited Time Promo: $10 OFF Magic Mushroom Gummies!</b> Introducing the first-of-their-kind Amanita Muscaria Mushroom Gummies, the only legal psychedelic option on the market. Each pack contains a potent 1500mg of pure amanita muscaria extract.<br> <a href='#' target='_blank'><i><b><u>>> Available online only, subscribe and save ADDITIONAL 15% OFF!</b></i></u></a>",
-      url: 'https://www.rzmef8trk.com/5SHH4C2/9KKJH68/',
-    },
-    {
-      id: 3,
       title: "Nuubu - Detox Foot Patches",
       offerId: '5172',
       image: '/images/Nuubu - Detox Foot Patches - WW (5172).webp',
@@ -44,7 +36,7 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SHH4C2/B5HB3F5/',
     },
     {
-      id: 4,
+      id: 3,
       title: "Akusoli Shoe Insoles",
       offerId: '5173',
       image: '/images/Akusoli - Shoe Insoles - WW (5173).webp',
@@ -52,7 +44,7 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SHH4C2/B5JNZ5Q/',
     },
     {
-      id: 5,
+      id: 4,
       title: "Denti Strength™",
       offerId: '5354',
       image: '/images/Denti Strength™ (5354).webp',
@@ -60,7 +52,7 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SHH4C2/BGJ2TCM/',
     },
     {
-      id: 6,
+      id: 5,
       title: "Type 2 Defense",
       offerId: '5353',
       image: '/images/Type 2 Defense (5353).webp',
@@ -68,7 +60,7 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SHH4C2/BGGMZM2/',
     },
     {
-      id: 7,
+      id: 6,
       title: "MemoShield Memory & Focus Support Formula",
       offerId: '5352',
       image: '/images/MemoShield Memory & Focus Support Formula (5352).webp',
@@ -76,7 +68,7 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SHH4C2/BGF93WF/',
     },
     {
-      id: 8,
+      id: 7,
       title: "RingClear Ear Ringing Formula",
       offerId: '5351',
       image: '/images/RingClear Ear Ringing Formula (5351).webp',
@@ -84,7 +76,7 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SHH4C2/BGCW75S/',
     },
     {
-      id: 9,
+      id: 8,
       title: "TriFlexarin Joint Comfort",
       offerId: '5197',
       image: '/images/TriFlexarin Joint Comfort (5197).webp',
@@ -92,7 +84,7 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SHH4C2/B6Q25SB/',
     },
     {
-      id: 10,
+      id: 9,
       title: "Advanced Nerve Support",
       offerId: '5196',
       image: '/images/Advanced Nerve Support (5196).webp',
@@ -100,7 +92,7 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SHH4C2/B6NM93P/',
     },
     {
-      id: 11,
+      id: 10,
       title: "BiOptimizers Magnesium Breakthrough",
       offerId: '5195',
       image: '/images/BiOptimizers Magnesium Breakthrough (5195).webp',
@@ -108,14 +100,21 @@ const products: Product[] = [
       url: 'https://www.rzmef8trk.com/5SHH4C2/B6M8DC4/',
     },
     {
-      id: 12,
+      id: 11,
       title: "Beyond Prostate: Advanced Prostate Health Formula",
       offerId: '5194',
       image: '/images/Beyond Prostate_ Advanced Prostate Health Formula (5194).webp',
       description: "<b>Limited Time Promo: Save $246 for a 180-Day Supply Beyond Prostate!</b> Support your prostate and urinary health with Beyond Prostate. Get FREE shipping on 3 and 6 bottle orders! <br> <a href='#' target='_blank'><i><b><u>>> Available online only, Beyond Prostate Advanced Prostate Health Formula is only $49/bottle vs. $69 retail - while supplies last.</b></i></u></a>",
       url: 'https://www.rzmef8trk.com/5SHH4C2/B6KTHLH/',
     },
-    
+    {
+      id: 12,
+      title: "Amanita Muscaria Mushroom Gummies",
+      offerId: '4851',
+      image: '/images/Magic Mushrooms (4851).webp',
+      description: "<b>Limited Time Promo: $10 OFF Magic Mushroom Gummies!</b> Introducing the first-of-their-kind Amanita Muscaria Mushroom Gummies, the only legal psychedelic option on the market. Each pack contains a potent 1500mg of pure amanita muscaria extract.<br> <a href='#' target='_blank'><i><b><u>>> Available online only, subscribe and save ADDITIONAL 15% OFF!</b></i></u></a>",
+      url: 'https://www.rzmef8trk.com/5SHH4C2/9KKJH68/',
+    }
 ];
 
 const otherOffers: OtherOffer[] = [
